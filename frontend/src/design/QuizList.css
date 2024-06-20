@@ -1,0 +1,68 @@
+/* QuizList.css */
+.quiz-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-list-container h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quiz-list-container li {
+    background-color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .quiz-list-container li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .quiz-list-container .quiz-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quiz-list-container .quiz-actions > * {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .quiz-list-container .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+  }
+  
+  .quiz-list-container .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .quiz-list-container .quiz-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .quiz-list-container .quiz-link:hover {
+    text-decoration: underline;
+  }
+  

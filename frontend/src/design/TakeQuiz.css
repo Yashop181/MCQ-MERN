@@ -1,0 +1,78 @@
+/* TakeQuiz.css */
+.take-quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .take-quiz-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .take-quiz-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .take-quiz-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .take-quiz-container li {
+    margin-bottom: 20px;
+  }
+  
+  .take-quiz-container p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .take-quiz-container label {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .take-quiz-container input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .take-quiz-container button[type="submit"] {
+    align-self: center;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .take-quiz-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .take-quiz-container .score {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 20px;
+  }
+  
+  .take-quiz-container .error {
+    text-align: center;
+    color: #dc3545;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
